@@ -415,6 +415,33 @@ The remote configuration was slower than the local configuration in the final 51
 
 However, the virtualized NUMA topology and execution-time variation influence the results. The measurements demonstrate the effect observed in this VM, not a guaranteed performance difference on every physical NUMA machine.
 
+
+## Screenshots
+
+<p align="center">
+  <img src="Screenshots/coherence1.jpeg" width="19%">
+  <img src="Screenshots/coherence2.jpeg" width="19%">
+  <img src="Screenshots/coherence3.jpeg" width="19%">
+  <img src="Screenshots/coherence4.jpeg" width="19%">
+  <img src="Screenshots/coherence5.jpeg" width="19%">
+</p>
+
+<p align="center">
+  <img src="Screenshots/coherence6.jpeg" width="19%">
+  <img src="Screenshots/coherence7.jpeg" width="19%">
+  <img src="Screenshots/coherence8.jpeg" width="19%">
+  <img src="Screenshots/coherence9.jpeg" width="19%">
+  <img src="Screenshots/coherence10.jpeg" width="19%">
+</p>
+
+<p align="center">
+  <img src="Screenshots/coherence11.jpeg" width="19%">
+  <img src="Screenshots/coherence12.jpeg" width="19%">
+  <img src="Screenshots/coherence13.jpeg" width="19%">
+  <img src="Screenshots/coherence14.jpeg" width="19%">
+  <img src="Screenshots/coherence15.jpeg" width="19%">
+</p>
+
 ## 13. Conclusion
 
 This experiment demonstrated how cache coherence protocols maintain consistency between processor caches and how false sharing can affect parallel performance.
