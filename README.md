@@ -418,23 +418,21 @@ However, the virtualized NUMA topology and execution-time variation influence th
 
 ## Screenshots
 
-![Coherence 1](Screenshots/coherence1.jpeg)
-![Coherence 2](Screenshots/coherence2.jpeg)
-![Coherence 3](Screenshots/coherence3.jpeg)
-![Coherence 4](Screenshots/coherence4.jpeg)
-![Coherence 5](Screenshots/coherence5.jpeg)
-
-![Coherence 6](Screenshots/coherence6.jpeg)
-![Coherence 7](Screenshots/coherence7.jpeg)
-![Coherence 8](Screenshots/coherence8.jpeg)
-![Coherence 9](Screenshots/coherence9.jpeg)
-![Coherence 10](Screenshots/coherence10.jpeg)
-
-![Coherence 11](Screenshots/coherence11.jpeg)
-![Coherence 12](Screenshots/coherence12.jpeg)
-![Coherence 13](Screenshots/coherence13.jpeg)
-![Coherence 14](Screenshots/coherence14.jpeg)
-![Coherence 15](Screenshots/coherence15.jpeg)
+![Coherence 1](Sreenshots/coherence1.jpeg)
+![Coherence 2](Sreenshots/coherence2.jpeg)
+![Coherence 3](Sreenshots/coherence3.jpeg)
+![Coherence 4](Sreenshots/coherence4.jpeg)
+![Coherence 5](Sreenshots/coherence5.jpeg)
+![Coherence 6](Sreenshots/coherence6.jpeg)
+![Coherence 7](Sreenshots/coherence7.jpeg)
+![Coherence 8](Sreenshots/coherence8.jpeg)
+![Coherence 9](Sreenshots/coherence9.jpeg)
+![Coherence 10](Sreenshots/coherence10.jpeg)
+![Coherence 11](Sreenshots/coherence11.jpeg)
+![Coherence 12](Sreenshots/coherence12.jpeg)
+![Coherence 13](Sreenshots/coherence13.jpeg)
+![Coherence 14](Sreenshots/coherence14.jpeg)
+![Coherence 15](Sreenshots/coherence15.jpeg)
 
 ## 13. Conclusion
 
@@ -450,39 +448,7 @@ All counter totals and memory-sweep sums were verified successfully.
 
 Therefore, the experiment successfully demonstrated cache coherence behavior, false sharing, parallel execution, and local versus remote NUMA memory placement.
 
-## 14. Results Directory
 
-The following output files were collected:
-
-```text
-results/
-├── system_info.txt
-├── coherence_results.txt
-├── false_sharing_results.txt
-├── comparison_results.txt
-├── numa_local.txt
-├── numa_remote.txt
-├── default_repeated.txt
-├── local_repeated.txt
-├── remote_repeated.txt
-├── default_512mb.txt
-├── local_512mb.txt
-└── remote_512mb.txt
 ```
 
-The older `comparison_results.txt`, `numa_local.txt`, `numa_remote.txt`, and repeated files from the earlier 128 MB version are historical measurements. The final corrected 512 MB measurements are stored in:
 
-- `default_512mb.txt`
-- `local_512mb.txt`
-- `remote_512mb.txt`
-
-The preliminary 32 MB NUMA sweep and optional cross-NUMA test are also documented above.
-
-## 15. Important Notes
-
-- Execution times can vary due to CPU scheduling, virtual machine overhead, and system load.
-- Median values from three repeated runs are used for the final comparison.
-- The 512 MB memory buffer is initialized before the timed memory-sweep loop.
-- The coherence protocol statistics are produced by a software simulator.
-- The NUMA nodes are virtual nodes provided by VMware.
-- Results from this virtual environment may differ from results on a physical multi-socket NUMA system.
