@@ -418,21 +418,29 @@ However, the virtualized NUMA topology and execution-time variation influence th
 
 ## Screenshots
 
-![Coherence 1](Sreenshots/coherence1.jpeg)
-![Coherence 2](Sreenshots/coherence2.jpeg)
-![Coherence 3](Sreenshots/coherence3.jpeg)
-![Coherence 4](Sreenshots/coherence4.jpeg)
-![Coherence 5](Sreenshots/coherence5.jpeg)
-![Coherence 6](Sreenshots/coherence6.jpeg)
-![Coherence 7](Sreenshots/coherence7.jpeg)
-![Coherence 8](Sreenshots/coherence8.jpeg)
-![Coherence 9](Sreenshots/coherence9.jpeg)
-![Coherence 10](Sreenshots/coherence10.jpeg)
-![Coherence 11](Sreenshots/coherence11.jpeg)
-![Coherence 12](Sreenshots/coherence12.jpeg)
-![Coherence 13](Sreenshots/coherence13.jpeg)
-![Coherence 14](Sreenshots/coherence14.jpeg)
-![Coherence 15](Sreenshots/coherence15.jpeg)
+<p align="center">
+  <img src="Sreenshots/coherence1.jpeg" width="19%">
+  <img src="Sreenshots/coherence2.jpeg" width="19%">
+  <img src="Sreenshots/coherence3.jpeg" width="19%">
+  <img src="Sreenshots/coherence4.jpeg" width="19%">
+  <img src="Sreenshots/coherence5.jpeg" width="19%">
+</p>
+
+<p align="center">
+  <img src="Sreenshots/coherence6.jpeg" width="19%">
+  <img src="Sreenshots/coherence7.jpeg" width="19%">
+  <img src="Sreenshots/coherence8.jpeg" width="19%">
+  <img src="Sreenshots/coherence9.jpeg" width="19%">
+  <img src="Sreenshots/coherence10.jpeg" width="19%">
+</p>
+
+<p align="center">
+  <img src="Sreenshots/coherence11.jpeg" width="19%">
+  <img src="Sreenshots/coherence12.jpeg" width="19%">
+  <img src="Sreenshots/coherence13.jpeg" width="19%">
+  <img src="Sreenshots/coherence14.jpeg" width="19%">
+  <img src="Sreenshots/coherence15.jpeg" width="19%">
+</p>
 
 ## 13. Conclusion
 
